@@ -1,0 +1,174 @@
+{
+  "format": "vworks_project",
+  "version": 3,
+  "name": "VVittox Survival",
+  "main_scene": "scenes/Start.vscene",
+  "icon": "icon.ico",
+  "window": {
+    "width": 1280,
+    "height": 720,
+    "fullscreen": false,
+    "borderless": false,
+    "resizable": true,
+    "vsync": true
+  },
+  "runtime": {
+    "target_fps": 60,
+    "preview_backend": "engine",
+    "render_backend": "cpu",
+    "strict_scripts": true,
+    "physics_fps": 60,
+    "gravity": 0.0,
+    "gravity_3d": -9.81,
+    "debug_overlay": false,
+    "debug_collisions": false,
+    "profiler_overlay": false,
+    "background_color": [
+      0,
+      0,
+      0
+    ]
+  },
+  "input_map": {
+    "move_left": [
+      "a",
+      "left"
+    ],
+    "move_right": [
+      "d",
+      "right"
+    ],
+    "move_up": [
+      "w",
+      "up"
+    ],
+    "move_down": [
+      "s",
+      "down"
+    ],
+    "dash": [
+      "space",
+      "left shift"
+    ],
+    "shop": [
+      "b"
+    ],
+    "ui_left": [
+      "left",
+      "a"
+    ],
+    "ui_right": [
+      "right",
+      "d"
+    ],
+    "ui_up": [
+      "up",
+      "w"
+    ],
+    "ui_down": [
+      "down",
+      "s"
+    ],
+    "ui_accept": [
+      "return"
+    ],
+    "ui_cancel": [
+      "escape"
+    ],
+    "upgrade_1": [
+      "1"
+    ],
+    "upgrade_2": [
+      "2"
+    ],
+    "upgrade_3": [
+      "3"
+    ],
+    "parry": [
+      "q"
+    ],
+    "performance_report": [
+      "f10"
+    ],
+    "interact": [
+      "e"
+    ]
+  },
+  "tags": [
+    "Untagged",
+    "Player",
+    "Enemy",
+    "Collectible",
+    "UI",
+    "Environment"
+  ],
+  "layers": [
+    "Default",
+    "Layer 1",
+    "Layer 2",
+    "Layer 3",
+    "Layer 4",
+    "Layer 5",
+    "Layer 6",
+    "Layer 7",
+    "Layer 8",
+    "Layer 9",
+    "Layer 10",
+    "Layer 11",
+    "Layer 12",
+    "Layer 13",
+    "Layer 14",
+    "Layer 15",
+    "Layer 16",
+    "Layer 17",
+    "Layer 18",
+    "Layer 19",
+    "Layer 20",
+    "Layer 21",
+    "Layer 22",
+    "Layer 23",
+    "Layer 24",
+    "Layer 25",
+    "Layer 26",
+    "Layer 27",
+    "Layer 28",
+    "Layer 29",
+    "Layer 30",
+    "Layer 31"
+  ],
+  "enabled_plugins": [],
+  "editor": {
+    "autosave_enabled": true,
+    "autosave_seconds": 60,
+    "recovery_keep": 10,
+    "grid_size": 16,
+    "show_collision_shapes": true
+  },
+  "build": {
+    "product_name": "VVittox Survival",
+    "version": "2.1",
+    "company": "VVittox Works",
+    "onefile": true,
+    "debug_console": false,
+    "clean_build": true,
+    "exclude": [],
+    "scenes": [
+      {
+        "path": "scenes/Start.vscene",
+        "enabled": true
+      },
+      {
+        "path": "scenes/Menu.vscene",
+        "enabled": true
+      },
+      {
+        "path": "scenes/Game.vscene",
+        "enabled": true
+      },
+      {
+        "path": "scenes/Zombie.vscene",
+        "enabled": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "format": "vworks_prefab",
+  "version": 2,
+  "node": {
+    "type": "StaticBody2D",
+    "name": "BarricadeRight",
+    "script": "",
+    "script_properties": {
+      "zombie_role": "barricade",
+      "health": 120,
+      "intact_texture": "assets/zombies/barricade_right_intact.png",
+      "broken_texture": "assets/zombies/barricade_right_broken.png"
+    },
+    "enabled": true,
+    "children": [
+      {
+        "type": "Sprite2D",
+        "name": "Visual",
+        "script": "",
+        "script_properties": {},
+        "enabled": true,
+        "children": [],
+        "position": [
+          -8.75,
+          -3.75
+        ],
+        "scale": [
+          0.25,
+          0.25
+        ],
+        "rotation": 0,
+        "visible": true,
+        "z_index": 0,
+        "texture": "assets/zombies/barricade_right_intact.png",
+        "centered": true,
+        "pixel_perfect": true
+      }
+    ],
+    "position": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "rotation": 0,
+    "visible": true,
+    "z_index": 0,
+    "collider_size": [
+      40,
+      100
+    ],
+    "collider_offset": [
+      -20,
+      -50
+    ],
+    "collider_enabled": true,
+    "collision_layer": 32,
+    "collision_mask": 6,
+    "gravity_scale": 0
+  }
+}

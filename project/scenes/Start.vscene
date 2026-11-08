@@ -1,0 +1,110 @@
+{
+  "format": "vworks_scene",
+  "version": 5,
+  "scene": {
+    "type": "Scene",
+    "name": "Start",
+    "script": "scripts/director.py",
+    "groups": [],
+    "tag": "Untagged",
+    "layer": 0,
+    "signal_connections": [],
+    "editor_locked": false,
+    "children": [
+      {
+        "type": "VideoPlayer",
+        "name": "IntroVideo",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "size": [
+          160.0,
+          64.0
+        ],
+        "anchors": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mouse_filter": "stop",
+        "clip": "assets/video/intro.vclip",
+        "autoplay": true,
+        "loop": false,
+        "volume": 1.0
+      },
+      {
+        "type": "Sprite2D",
+        "name": "._V_down_ba84e475_-4740991868950792700",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position": [
+          -1078.8102283074622,
+          -673.8844143348098
+        ],
+        "rotation": 0.08726646259971647,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "texture": "assets/sprites/._V_down_ba84e475_-4740991868950792700.png",
+        "centered": true,
+        "flip_h": false,
+        "flip_v": false,
+        "opacity": 1.0,
+        "tint": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "pixel_perfect": false
+      }
+    ],
+    "script_properties": {
+      "mode": "Start",
+      "source": "Assets/Scenes/Start.unity",
+      "delay": 6.0
+    },
+    "enabled": true,
+    "background_color": [
+      0,
+      0,
+      0
+    ]
+  }
+}

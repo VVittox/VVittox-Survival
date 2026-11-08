@@ -1,0 +1,23 @@
+
+# macOS
+.DS_Store
+._*
+
+# Build output
+/project/builds/
+/build/
+/dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+
+
+# Virtual environments
+/.venv/
+
+# V Works Engine generated files and autosaves
+/project/.vworks/

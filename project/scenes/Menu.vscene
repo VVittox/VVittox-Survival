@@ -1,0 +1,5427 @@
+{
+  "format": "vworks_scene",
+  "version": 5,
+  "scene": {
+    "type": "Scene",
+    "name": "Menu",
+    "script": "scripts/director.py",
+    "groups": [],
+    "tag": "Untagged",
+    "layer": 0,
+    "signal_connections": [],
+    "editor_locked": false,
+    "children": [
+      {
+        "type": "VideoPlayer",
+        "name": "MenuVideo",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": -100,
+        "material": "",
+        "size": [
+          160.0,
+          64.0
+        ],
+        "anchors": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mouse_filter": "stop",
+        "clip": "assets/video/menu.vclip",
+        "autoplay": true,
+        "loop": true,
+        "volume": 0.0
+      },
+      {
+        "type": "AudioStreamPlayer2D",
+        "name": "Music",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "stream": "assets/audio/VVittox_Survival_ost.wav",
+        "autoplay": true,
+        "loop": false,
+        "volume": 0.104
+      },
+      {
+        "type": "UICanvas",
+        "name": "UI",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "UILabel",
+            "name": "best_wave__1697703044",
+            "script": "",
+            "groups": [
+              "menu_chrome"
+            ],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {
+              "role": "best_wave",
+              "source_name": "best wave",
+              "unity_file_id": 1697703044
+            },
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": -0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "size": [
+              160.0,
+              64.0
+            ],
+            "anchors": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "offsets": [
+              1245.0,
+              360.0,
+              1545.0,
+              425.0
+            ],
+            "mouse_filter": "stop",
+            "text": "BEST WAVE: 90",
+            "font_size": 55,
+            "color": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "align": "center",
+            "font_path": "assets/fonts/VVITTOX_V2.ttf",
+            "vertical_align": "center",
+            "wrap": true,
+            "rich_layout": true,
+            "font_stretch": 1.0,
+            "auto_fit": true,
+            "font_bold": true
+          },
+          {
+            "type": "UIImage",
+            "name": "buttons_grid__923053031",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [
+              {
+                "type": "UIImage",
+                "name": "Image__459761699",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "source_name": "Image",
+                  "unity_file_id": 459761699
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": -0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  12.0,
+                  609.0,
+                  720.0,
+                  1065.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "",
+                "color": [
+                  0,
+                  0,
+                  0,
+                  195
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true
+              },
+              {
+                "type": "UIButton",
+                "name": "Play__832624582",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UILabel",
+                    "name": "Text_TMP__2000431198",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {
+                      "source_name": "Text (TMP)",
+                      "unity_file_id": 2000431198
+                    },
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": -0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      0.0,
+                      0.0,
+                      656.0,
+                      107.99999999999999
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Play",
+                    "font_size": 97,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "center",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": true
+                  }
+                ],
+                "script_properties": {
+                  "action": "StartGame",
+                  "source_name": "Play",
+                  "unity_file_id": 832624582
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": -0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  38.0,
+                  654.0,
+                  694.0,
+                  762.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  156,
+                  156,
+                  156,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "",
+                "font_size": 24,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Settings__357231287",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UILabel",
+                    "name": "Text_TMP__665067741",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {
+                      "source_name": "Text (TMP)",
+                      "unity_file_id": 665067741
+                    },
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": -0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 3,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      0.0,
+                      0.0,
+                      656.0,
+                      107.99999999999999
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Settings",
+                    "font_size": 94,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "center",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": true
+                  }
+                ],
+                "script_properties": {
+                  "action": "ShowSettings",
+                  "source_name": "Settings",
+                  "unity_file_id": 357231287
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": -0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  38.0,
+                  783.0,
+                  694.0,
+                  891.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  156,
+                  156,
+                  156,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "",
+                "font_size": 24,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Quit__1491641061",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UILabel",
+                    "name": "Text_TMP__39959812",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {
+                      "source_name": "Text (TMP)",
+                      "unity_file_id": 39959812
+                    },
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": -0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      0.0,
+                      0.0,
+                      656.0,
+                      107.99999999999999
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Quit",
+                    "font_size": 97,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "center",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": true
+                  }
+                ],
+                "script_properties": {
+                  "action": "QuitGame",
+                  "source_name": "Quit",
+                  "unity_file_id": 1491641061
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": -0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  38.0,
+                  915.0,
+                  694.0,
+                  1023.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  156,
+                  156,
+                  156,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "",
+                "font_size": 24,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Tg__993809214",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "OpenLink",
+                  "source_name": "Tg",
+                  "unity_file_id": 993809214,
+                  "url": "https://t.me/VVittox"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": -0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  1795.812812,
+                  954.3717,
+                  1903.0694119999998,
+                  1061.6283
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/telegram_link_d648c7f1_21300000.png",
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "",
+                "font_size": 24,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Boosty__1562074062",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "OpenLink",
+                  "source_name": "Boosty",
+                  "unity_file_id": 1562074062,
+                  "url": "https://boosty.to/vvittox"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": -0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  1672.3717,
+                  954.3717,
+                  1779.6282999999999,
+                  1061.6283
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/boostry_link_chat_d9f77963_21300000.png",
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "",
+                "font_size": 24,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Web__1151308604",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "OpenLink",
+                  "source_name": "Web",
+                  "unity_file_id": 1151308604,
+                  "url": "https://sites.google.com/view/vvittox/vvittox"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": -0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  1550.3717,
+                  954.3717,
+                  1657.6282999999999,
+                  1061.6283
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/VVittox_works_link_93d29fc1_21300000.png",
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "",
+                "font_size": 24,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              }
+            ],
+            "script_properties": {
+              "role": "main",
+              "source_name": "buttons grid",
+              "unity_file_id": 923053031
+            },
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": -0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "size": [
+              160.0,
+              64.0
+            ],
+            "anchors": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "offsets": [
+              0.0,
+              0.0,
+              1920.0,
+              1080.0
+            ],
+            "mouse_filter": "stop",
+            "texture": "",
+            "color": [
+              0,
+              0,
+              0,
+              14
+            ],
+            "fill_amount": 1.0,
+            "preserve_aspect": false,
+            "pixel_perfect": true
+          },
+          {
+            "type": "UIImage",
+            "name": "Logo__1174412100",
+            "script": "",
+            "groups": [
+              "menu_chrome"
+            ],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {
+              "source_name": "Logo",
+              "unity_file_id": 1174412100
+            },
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": -0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "size": [
+              160.0,
+              64.0
+            ],
+            "anchors": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "offsets": [
+              793.90065,
+              49.906800000000004,
+              1876.09935,
+              290.0932
+            ],
+            "mouse_filter": "stop",
+            "texture": "assets/sprites/VVittox_Survival_LOGO_Wide_19ee7692_3160451934372184046.png",
+            "color": [
+              214,
+              211,
+              211,
+              255
+            ],
+            "fill_amount": 1.0,
+            "preserve_aspect": false,
+            "pixel_perfect": true
+          },
+          {
+            "type": "UILabel",
+            "name": "FPS__456741721",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {
+              "role": "fps",
+              "source_name": "FPS",
+              "unity_file_id": 456741721
+            },
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": -0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "size": [
+              160.0,
+              64.0
+            ],
+            "anchors": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "offsets": [
+              0.0,
+              0.0,
+              200.0,
+              50.0
+            ],
+            "mouse_filter": "stop",
+            "text": "FPS' 5675",
+            "font_size": 60,
+            "color": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "align": "left",
+            "font_path": "assets/fonts/VVITTOX_V2.ttf",
+            "vertical_align": "center",
+            "wrap": true,
+            "rich_layout": true,
+            "font_stretch": 1.0,
+            "auto_fit": true,
+            "font_bold": false
+          },
+          {
+            "type": "UIImage",
+            "name": "SettingsV2",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [
+              {
+                "type": "UILabel",
+                "name": "Title",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {},
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  20.0,
+                  1540.0,
+                  90.0
+                ],
+                "mouse_filter": "stop",
+                "text": "SETTINGS",
+                "font_size": 44,
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "align": "left",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "vertical_align": "center",
+                "wrap": true,
+                "rich_layout": true,
+                "font_stretch": 1.0,
+                "auto_fit": true,
+                "font_bold": true
+              },
+              {
+                "type": "UIButton",
+                "name": "VSync",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:VSync",
+                  "role": "setting_VSync"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  125.0,
+                  580.0,
+                  203.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "VSYNC",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "TargetFPS",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:TargetFPS",
+                  "role": "setting_TargetFPS"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  225.0,
+                  580.0,
+                  303.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "FPS LIMIT",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Fullscreen",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:Fullscreen",
+                  "role": "setting_Fullscreen"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  325.0,
+                  580.0,
+                  403.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "FULLSCREEN",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Resolution",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:Resolution",
+                  "role": "setting_Resolution"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  425.0,
+                  580.0,
+                  503.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "RESOLUTION",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "RenderScale",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:RenderScale",
+                  "role": "setting_RenderScale"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  525.0,
+                  580.0,
+                  603.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "WORLD RESOLUTION",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Quality",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:Quality",
+                  "role": "setting_Quality"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  625.0,
+                  580.0,
+                  703.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "FILTER",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Difficulty",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:Difficulty",
+                  "role": "setting_Difficulty"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  610.0,
+                  125.0,
+                  1150.0,
+                  203.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "DIFFICULTY",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Loadout",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:Loadout",
+                  "role": "setting_Loadout"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  610.0,
+                  225.0,
+                  1150.0,
+                  303.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "STARTER",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "CameraShake",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:CameraShake",
+                  "role": "setting_CameraShake"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  610.0,
+                  325.0,
+                  1150.0,
+                  403.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "SHAKE",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "ShakeStrength",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:ShakeStrength",
+                  "role": "setting_ShakeStrength"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  610.0,
+                  425.0,
+                  1150.0,
+                  503.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "SHAKE STRENGTH",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Zoom",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:Zoom",
+                  "role": "setting_Zoom"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  610.0,
+                  525.0,
+                  1150.0,
+                  603.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "ZOOM",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "HUDScale",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:HUDScale",
+                  "role": "setting_HUDScale"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  610.0,
+                  625.0,
+                  1150.0,
+                  703.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "HUD SCALE",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "ShowFPS",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:ShowFPS",
+                  "role": "setting_ShowFPS"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  1180.0,
+                  125.0,
+                  1720.0,
+                  203.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "SHOW FPS",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Diagnostics",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:Diagnostics",
+                  "role": "setting_Diagnostics"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  1180.0,
+                  225.0,
+                  1720.0,
+                  303.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "CPU TIMINGS",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "MenuVideo",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:MenuVideo",
+                  "role": "setting_MenuVideo"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  1180.0,
+                  325.0,
+                  1720.0,
+                  403.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "MENU VIDEO",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "SFXPitch",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:SFXPitch",
+                  "role": "setting_SFXPitch"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  1180.0,
+                  425.0,
+                  1720.0,
+                  503.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "SOUND PITCH VARIATION",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "TouchControls",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:TouchControls",
+                  "role": "setting_TouchControls"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  1180.0,
+                  525.0,
+                  1720.0,
+                  603.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "TOUCH CONTROLS",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UILabel",
+                "name": "Volume",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "role": "setting_Volume"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  760.0,
+                  520.0,
+                  812.0
+                ],
+                "mouse_filter": "stop",
+                "text": "VOLUME",
+                "font_size": 26,
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "align": "left",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "vertical_align": "center",
+                "wrap": true,
+                "rich_layout": true,
+                "font_stretch": 1.0,
+                "auto_fit": true,
+                "font_bold": false
+              },
+              {
+                "type": "UIButton",
+                "name": "VolDown",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:VolumeDown"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  540.0,
+                  760.0,
+                  630.0,
+                  812.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "-",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "VolUp",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:VolumeUp"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  650.0,
+                  760.0,
+                  740.0,
+                  812.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "+",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UILabel",
+                "name": "Hint",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {},
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  830.0,
+                  1710.0,
+                  880.0
+                ],
+                "mouse_filter": "stop",
+                "text": "Difficulty and starter apply to the next run. World scale keeps UI sharp.",
+                "font_size": 24,
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "align": "left",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "vertical_align": "center",
+                "wrap": true,
+                "rich_layout": true,
+                "font_stretch": 1.0,
+                "auto_fit": true,
+                "font_bold": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Defaults",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Setting:Defaults"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  900.0,
+                  580.0,
+                  955.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "RESET SETTINGS",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Back",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "ShowMain"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  1190.0,
+                  900.0,
+                  1730.0,
+                  955.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "BACK",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "OriginalUICustomize",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "ShowSkins"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  650.0,
+                  900.0,
+                  1150.0,
+                  955.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "Skins / Hats",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 34,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              }
+            ],
+            "script_properties": {
+              "role": "settings"
+            },
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": 0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "visible": false,
+            "z_index": 0,
+            "material": "",
+            "size": [
+              160.0,
+              64.0
+            ],
+            "anchors": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "offsets": [
+              70.0,
+              50.0,
+              1850.0,
+              1020.0
+            ],
+            "mouse_filter": "stop",
+            "texture": "",
+            "color": [
+              0,
+              20,
+              0,
+              230
+            ],
+            "fill_amount": 1.0,
+            "preserve_aspect": false,
+            "pixel_perfect": true
+          },
+          {
+            "type": "UIImage",
+            "name": "WardrobeV2",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [
+              {
+                "type": "UILabel",
+                "name": "Title",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {},
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  20.0,
+                  1690.0,
+                  90.0
+                ],
+                "mouse_filter": "stop",
+                "text": "CUSTOMIZE YOUR SURVIVOR",
+                "font_size": 44,
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "align": "left",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "vertical_align": "center",
+                "wrap": true,
+                "rich_layout": true,
+                "font_stretch": 1.0,
+                "auto_fit": true,
+                "font_bold": true
+              },
+              {
+                "type": "UILabel",
+                "name": "Palette",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {},
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  110.0,
+                  1090.0,
+                  165.0
+                ],
+                "mouse_filter": "stop",
+                "text": "PLAYER PALETTE",
+                "font_size": 27,
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "align": "left",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "vertical_align": "center",
+                "wrap": true,
+                "rich_layout": true,
+                "font_stretch": 1.0,
+                "auto_fit": true,
+                "font_bold": true
+              },
+              {
+                "type": "UIButton",
+                "name": "Skin0",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UIImage",
+                    "name": "Swatch",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      95.0,
+                      0.0,
+                      230.0,
+                      100.0
+                    ],
+                    "mouse_filter": "stop",
+                    "texture": "assets/sprites/V_down_ba84e475_-4740991868950792700.png",
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "fill_amount": 1.0,
+                    "preserve_aspect": true,
+                    "pixel_perfect": true
+                  },
+                  {
+                    "type": "UILabel",
+                    "name": "Caption",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {
+                      "role": "skin_0"
+                    },
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      1.0,
+                      1.0
+                    ],
+                    "offsets": [
+                      5.0,
+                      105.0,
+                      -5.0,
+                      -3.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Classic",
+                    "font_size": 23,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "center",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {
+                  "action": "SelectSkin0"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  180.0,
+                  365.0,
+                  335.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Skin1",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UIImage",
+                    "name": "Swatch",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      95.0,
+                      0.0,
+                      230.0,
+                      100.0
+                    ],
+                    "mouse_filter": "stop",
+                    "texture": "assets/sprites/V_down_ba84e475_-4740991868950792700.png",
+                    "color": [
+                      184,
+                      235,
+                      255,
+                      255
+                    ],
+                    "fill_amount": 1.0,
+                    "preserve_aspect": true,
+                    "pixel_perfect": true
+                  },
+                  {
+                    "type": "UILabel",
+                    "name": "Caption",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {
+                      "role": "skin_1"
+                    },
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      1.0,
+                      1.0
+                    ],
+                    "offsets": [
+                      5.0,
+                      105.0,
+                      -5.0,
+                      -3.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Ice",
+                    "font_size": 23,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "center",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {
+                  "action": "SelectSkin1"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  390.0,
+                  180.0,
+                  715.0,
+                  335.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Skin2",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UIImage",
+                    "name": "Swatch",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      95.0,
+                      0.0,
+                      230.0,
+                      100.0
+                    ],
+                    "mouse_filter": "stop",
+                    "texture": "assets/sprites/V_down_ba84e475_-4740991868950792700.png",
+                    "color": [
+                      255,
+                      219,
+                      89,
+                      255
+                    ],
+                    "fill_amount": 1.0,
+                    "preserve_aspect": true,
+                    "pixel_perfect": true
+                  },
+                  {
+                    "type": "UILabel",
+                    "name": "Caption",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {
+                      "role": "skin_2"
+                    },
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      1.0,
+                      1.0
+                    ],
+                    "offsets": [
+                      5.0,
+                      105.0,
+                      -5.0,
+                      -3.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Gold",
+                    "font_size": 23,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "center",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {
+                  "action": "SelectSkin2"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  740.0,
+                  180.0,
+                  1065.0,
+                  335.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Skin3",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UIImage",
+                    "name": "Swatch",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      95.0,
+                      0.0,
+                      230.0,
+                      100.0
+                    ],
+                    "mouse_filter": "stop",
+                    "texture": "assets/sprites/V_down_ba84e475_-4740991868950792700.png",
+                    "color": [
+                      115,
+                      255,
+                      148,
+                      255
+                    ],
+                    "fill_amount": 1.0,
+                    "preserve_aspect": true,
+                    "pixel_perfect": true
+                  },
+                  {
+                    "type": "UILabel",
+                    "name": "Caption",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {
+                      "role": "skin_3"
+                    },
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      1.0,
+                      1.0
+                    ],
+                    "offsets": [
+                      5.0,
+                      105.0,
+                      -5.0,
+                      -3.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Neon",
+                    "font_size": 23,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "center",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {
+                  "action": "SelectSkin3"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  360.0,
+                  365.0,
+                  515.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Skin4",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UIImage",
+                    "name": "Swatch",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      95.0,
+                      0.0,
+                      230.0,
+                      100.0
+                    ],
+                    "mouse_filter": "stop",
+                    "texture": "assets/sprites/V_down_ba84e475_-4740991868950792700.png",
+                    "color": [
+                      199,
+                      140,
+                      255,
+                      255
+                    ],
+                    "fill_amount": 1.0,
+                    "preserve_aspect": true,
+                    "pixel_perfect": true
+                  },
+                  {
+                    "type": "UILabel",
+                    "name": "Caption",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {
+                      "role": "skin_4"
+                    },
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      1.0,
+                      1.0
+                    ],
+                    "offsets": [
+                      5.0,
+                      105.0,
+                      -5.0,
+                      -3.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Violet",
+                    "font_size": 23,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "center",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {
+                  "action": "SelectSkin4"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  390.0,
+                  360.0,
+                  715.0,
+                  515.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Skin5",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UIImage",
+                    "name": "Swatch",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      95.0,
+                      0.0,
+                      230.0,
+                      100.0
+                    ],
+                    "mouse_filter": "stop",
+                    "texture": "assets/sprites/V_down_ba84e475_-4740991868950792700.png",
+                    "color": [
+                      255,
+                      122,
+                      122,
+                      255
+                    ],
+                    "fill_amount": 1.0,
+                    "preserve_aspect": true,
+                    "pixel_perfect": true
+                  },
+                  {
+                    "type": "UILabel",
+                    "name": "Caption",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {
+                      "role": "skin_5"
+                    },
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      1.0,
+                      1.0
+                    ],
+                    "offsets": [
+                      5.0,
+                      105.0,
+                      -5.0,
+                      -3.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Crimson",
+                    "font_size": 23,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "center",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {
+                  "action": "SelectSkin5"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  740.0,
+                  360.0,
+                  1065.0,
+                  515.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UILabel",
+                "name": "Hats",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "role": "cosmetic_hat"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  560.0,
+                  1070.0,
+                  610.0
+                ],
+                "mouse_filter": "stop",
+                "text": "HEADGEAR",
+                "font_size": 27,
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "align": "left",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "vertical_align": "center",
+                "wrap": true,
+                "rich_layout": true,
+                "font_stretch": 1.0,
+                "auto_fit": true,
+                "font_bold": true
+              },
+              {
+                "type": "UIButton",
+                "name": "Hat0",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UILabel",
+                    "name": "Caption",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      1.0,
+                      1.0
+                    ],
+                    "offsets": [
+                      5.0,
+                      105.0,
+                      -5.0,
+                      -3.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "None",
+                    "font_size": 23,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "center",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {
+                  "action": "Cosmetic:Hat0"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  625.0,
+                  280.0,
+                  775.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Hat1",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UIImage",
+                    "name": "Photo",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      45.0,
+                      0.0,
+                      195.0,
+                      100.0
+                    ],
+                    "mouse_filter": "stop",
+                    "texture": "assets/cosmetics/vvittox_cube.png",
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "fill_amount": 1.0,
+                    "preserve_aspect": true,
+                    "pixel_perfect": true
+                  },
+                  {
+                    "type": "UILabel",
+                    "name": "Caption",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      1.0,
+                      1.0
+                    ],
+                    "offsets": [
+                      5.0,
+                      105.0,
+                      -5.0,
+                      -3.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "VVITTOX Cube",
+                    "font_size": 23,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "center",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {
+                  "action": "Cosmetic:Hat1"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  305.0,
+                  625.0,
+                  545.0,
+                  775.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Hat2",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UIImage",
+                    "name": "Photo",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      45.0,
+                      0.0,
+                      195.0,
+                      100.0
+                    ],
+                    "mouse_filter": "stop",
+                    "texture": "assets/cosmetics/brick.png",
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "fill_amount": 1.0,
+                    "preserve_aspect": true,
+                    "pixel_perfect": true
+                  },
+                  {
+                    "type": "UILabel",
+                    "name": "Caption",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      1.0,
+                      1.0
+                    ],
+                    "offsets": [
+                      5.0,
+                      105.0,
+                      -5.0,
+                      -3.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Brick",
+                    "font_size": 23,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "center",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {
+                  "action": "Cosmetic:Hat2"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  570.0,
+                  625.0,
+                  810.0,
+                  775.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Hat3",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UIImage",
+                    "name": "Photo",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      45.0,
+                      0.0,
+                      195.0,
+                      100.0
+                    ],
+                    "mouse_filter": "stop",
+                    "texture": "assets/cosmetics/cone.png",
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "fill_amount": 1.0,
+                    "preserve_aspect": true,
+                    "pixel_perfect": true
+                  },
+                  {
+                    "type": "UILabel",
+                    "name": "Caption",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      1.0,
+                      1.0
+                    ],
+                    "offsets": [
+                      5.0,
+                      105.0,
+                      -5.0,
+                      -3.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Traffic Cone",
+                    "font_size": 23,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "center",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {
+                  "action": "Cosmetic:Hat3"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  835.0,
+                  625.0,
+                  1075.0,
+                  775.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "HatSize",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Cosmetic:HatScale",
+                  "role": "cosmetic_hatscale"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  40.0,
+                  800.0,
+                  540.0,
+                  860.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "HAT SIZE",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "HatHeight",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "Cosmetic:HatOffset",
+                  "role": "cosmetic_hatoffset"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  570.0,
+                  800.0,
+                  1070.0,
+                  860.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "HAT HEIGHT",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIImage",
+                "name": "WeaponCard",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UIImage",
+                    "name": "Weapon",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {
+                      "role": "cosmetic_weapon_preview"
+                    },
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      70.0,
+                      70.0,
+                      510.0,
+                      310.0
+                    ],
+                    "mouse_filter": "stop",
+                    "texture": "assets/sprites/Shotgun_bf3833ae_-2408530018317867212.png",
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "fill_amount": 1.0,
+                    "preserve_aspect": true,
+                    "pixel_perfect": true
+                  },
+                  {
+                    "type": "UIButton",
+                    "name": "WeaponSelect",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {
+                      "action": "Cosmetic:Weapon",
+                      "role": "cosmetic_weapon"
+                    },
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      30.0,
+                      355.0,
+                      550.0,
+                      420.0
+                    ],
+                    "mouse_filter": "stop",
+                    "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                    "color": [
+                      200,
+                      200,
+                      200,
+                      255
+                    ],
+                    "fill_amount": 1.0,
+                    "preserve_aspect": false,
+                    "pixel_perfect": true,
+                    "text": "WEAPON",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "font_size": 30,
+                    "text_color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "disabled": false
+                  },
+                  {
+                    "type": "UIButton",
+                    "name": "FinishSelect",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {
+                      "action": "Cosmetic:Finish",
+                      "role": "cosmetic_finish"
+                    },
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      30.0,
+                      445.0,
+                      550.0,
+                      510.0
+                    ],
+                    "mouse_filter": "stop",
+                    "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                    "color": [
+                      200,
+                      200,
+                      200,
+                      255
+                    ],
+                    "fill_amount": 1.0,
+                    "preserve_aspect": false,
+                    "pixel_perfect": true,
+                    "text": "FINISH",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "font_size": 30,
+                    "text_color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "disabled": false
+                  },
+                  {
+                    "type": "UILabel",
+                    "name": "Note",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160.0,
+                      64.0
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      30.0,
+                      560.0,
+                      550.0,
+                      680.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Each weapon remembers its finish.\nCosmetics do not change stats.",
+                    "font_size": 25,
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "align": "left",
+                    "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                    "vertical_align": "center",
+                    "wrap": true,
+                    "rich_layout": true,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {},
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  1150.0,
+                  115.0,
+                  1730.0,
+                  850.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "",
+                "color": [
+                  0,
+                  0,
+                  0,
+                  80
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true
+              },
+              {
+                "type": "UIButton",
+                "name": "Back",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "ShowMain"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  1190.0,
+                  900.0,
+                  1730.0,
+                  955.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  200,
+                  200,
+                  200,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "BACK",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 30,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              }
+            ],
+            "script_properties": {
+              "role": "skins"
+            },
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": 0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "visible": false,
+            "z_index": 0,
+            "material": "",
+            "size": [
+              160.0,
+              64.0
+            ],
+            "anchors": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "offsets": [
+              70.0,
+              50.0,
+              1850.0,
+              1020.0
+            ],
+            "mouse_filter": "stop",
+            "texture": "",
+            "color": [
+              0,
+              20,
+              0,
+              230
+            ],
+            "fill_amount": 1.0,
+            "preserve_aspect": false,
+            "pixel_perfect": true
+          },
+          {
+            "type": "UIImage",
+            "name": "ModeSelection",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [
+              {
+                "type": "UILabel",
+                "name": "Title",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {},
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  450.0,
+                  230.0,
+                  1470.0,
+                  350.0
+                ],
+                "mouse_filter": "ignore",
+                "text": "Choose mode",
+                "font_size": 86,
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "align": "center",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "vertical_align": "center",
+                "wrap": true,
+                "rich_layout": true,
+                "font_stretch": 1.0,
+                "auto_fit": true,
+                "font_bold": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Classic",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "StartClassic"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  570.0,
+                  410.0,
+                  1350.0,
+                  515.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "Classic",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 46,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Zombies",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "StartZombie"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  570.0,
+                  545.0,
+                  1350.0,
+                  650.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "fill_amount": 1.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "Zombies",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 46,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              },
+              {
+                "type": "UIButton",
+                "name": "Back",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [],
+                "script_properties": {
+                  "action": "ShowMain"
+                },
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160.0,
+                  64.0
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "offsets": [
+                  680.0,
+                  740.0,
+                  1240.0,
+                  835.0
+                ],
+                "mouse_filter": "stop",
+                "texture": "assets/sprites/Buttons_d3456996_21300000.png",
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "fill_amount": 0.0,
+                "preserve_aspect": false,
+                "pixel_perfect": true,
+                "text": "Back",
+                "font_path": "assets/fonts/VVITTOX_V2.ttf",
+                "font_size": 45,
+                "text_color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "disabled": false
+              }
+            ],
+            "script_properties": {
+              "role": "mode_select"
+            },
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": 0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "visible": false,
+            "z_index": 0,
+            "material": "",
+            "size": [
+              160.0,
+              64.0
+            ],
+            "anchors": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "offsets": [
+              0.0,
+              0.0,
+              1920.0,
+              1080.0
+            ],
+            "mouse_filter": "stop",
+            "texture": "",
+            "color": [
+              0,
+              25,
+              0,
+              235
+            ],
+            "fill_amount": 1.0,
+            "preserve_aspect": false,
+            "pixel_perfect": true
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 100,
+        "material": "",
+        "size": [
+          160.0,
+          64.0
+        ],
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          160.0,
+          64.0
+        ],
+        "mouse_filter": "stop",
+        "reference_size": [
+          1920.0,
+          1080.0
+        ]
+      }
+    ],
+    "script_properties": {
+      "mode": "Menu",
+      "source": "Assets/Scenes/Menu.unity",
+      "weaponPreviews": {
+        "Automatic": "assets/sprites/rifle_28a49dd1_21300000.png",
+        "Knife": "assets/sprites/knife_bd8060a7_761100573506273824.png",
+        "Machete": "assets/sprites/machete_VVittox_survival_tex_eb5d8992_-8737776714868017526.png",
+        "MachineGun": "assets/sprites/automatic_gun_VVittox_survival_tex_94734a17_7130457572871944688.png",
+        "Pistol": "assets/sprites/Shotgun_bf3833ae_-2408530018317867212.png",
+        "Sniper": "assets/sprites/sniper_rifle_VVittox_survival_tex_4f2eae0f_2889368697447416238.png"
+      }
+    },
+    "enabled": true,
+    "background_color": [
+      0,
+      50,
+      0
+    ]
+  }
+}

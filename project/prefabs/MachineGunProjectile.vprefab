@@ -1,0 +1,93 @@
+{
+  "format": "vworks_prefab",
+  "version": 2,
+  "node": {
+    "type": "CharacterBody2D",
+    "name": "MachineGunProjectile",
+    "script": "scripts/projectile.py",
+    "groups": [],
+    "tag": "Untagged",
+    "layer": 0,
+    "signal_connections": [],
+    "editor_locked": false,
+    "children": [
+      {
+        "type": "Sprite2D",
+        "name": "Visual",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position": [
+          0,
+          0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          0.04,
+          0.05333333333333334
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "texture": "assets/original/Art/square.png",
+        "centered": true,
+        "flip_h": false,
+        "flip_v": false,
+        "opacity": 1.0,
+        "tint": [
+          89,
+          59,
+          0,
+          255
+        ],
+        "pixel_perfect": true
+      }
+    ],
+    "script_properties": {
+      "baseSpeed": 12,
+      "lifetime": 3,
+      "source": "Assets/Prefabs/Projectile 3.prefab"
+    },
+    "enabled": true,
+    "position": [
+      0.0,
+      0.0
+    ],
+    "rotation": 0.0,
+    "scale": [
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "z_index": 0,
+    "material": "",
+    "collider_shape": "box",
+    "body_type": "KINEMATIC",
+    "velocity": [
+      0.0,
+      0.0
+    ],
+    "mass": 1.0,
+    "gravity_scale": 0,
+    "restitution": 0.0,
+    "friction": 0.2,
+    "collider_size": [
+      32,
+      32
+    ],
+    "collider_offset": [
+      -16.0,
+      -16.0
+    ],
+    "collider_enabled": true,
+    "collider_trigger": true,
+    "collision_layer": 8,
+    "collision_mask": 0
+  }
+}

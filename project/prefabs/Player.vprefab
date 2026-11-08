@@ -1,0 +1,842 @@
+{
+  "format": "vworks_prefab",
+  "version": 2,
+  "node": {
+    "type": "CharacterBody2D",
+    "name": "Player",
+    "script": "scripts/player.py",
+    "groups": [],
+    "tag": "Player",
+    "layer": 0,
+    "signal_connections": [],
+    "editor_locked": false,
+    "children": [
+      {
+        "type": "Sprite2D",
+        "name": "Visual",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position": [
+          0.0,
+          -0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          0.32,
+          0.32
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "texture": "assets/sprites/V_down_ba84e475_-4740991868950792700.png",
+        "centered": true,
+        "flip_h": false,
+        "flip_v": false,
+        "opacity": 1.0,
+        "tint": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "pixel_perfect": true
+      },
+      {
+        "type": "Node2D",
+        "name": "Pistol",
+        "script": "scripts/weapon.py",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "Sprite2D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position": [
+              47.36,
+              22.208
+            ],
+            "rotation": -0.0,
+            "scale": [
+              0.127936,
+              0.111648
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "texture": "assets/sprites/Shotgun_bf3833ae_-2408530018317867212.png",
+            "centered": true,
+            "flip_h": false,
+            "flip_v": false,
+            "opacity": 1.0,
+            "tint": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "pixel_perfect": true
+          }
+        ],
+        "script_properties": {
+          "unlockedAtStart": 0,
+          "sfx": {
+            "attackSound": "assets/audio/VVittox_survival_shotgun.mp3",
+            "hitSound": "",
+            "attackVolume": 0.022,
+            "hitVolume": 0.031,
+            "minPitch": 0.872,
+            "maxPitch": 1.123
+          },
+          "damage": 10,
+          "attackSpeed": 2,
+          "attackRange": 12,
+          "muzzleDistance": 0.95,
+          "multiShot": 1,
+          "spreadAngle": 9,
+          "projectileSpeedMultiplier": 1.1800001,
+          "pierce": 0,
+          "criticalChance": 0.05,
+          "criticalMultiplier": 2,
+          "visualLocalOffset": {
+            "x": 2,
+            "y": -0.5
+          },
+          "visualRotationOffset": 0,
+          "flipWhenAimingLeft": 1,
+          "visualScaleMultiplier": 1,
+          "useConfiguredVisualTransform": 1,
+          "kind": "Pistol",
+          "authored_flip_v": false,
+          "projectile_prefab": "prefabs/Projectile.vprefab"
+        },
+        "enabled": true,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": ""
+      },
+      {
+        "type": "Node2D",
+        "name": "Automatic",
+        "script": "scripts/weapon.py",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "Sprite2D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position": [
+              47.36,
+              -2.78399936
+            ],
+            "rotation": -0.0,
+            "scale": [
+              1.006574848,
+              0.87842416
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "texture": "assets/sprites/rifle_28a49dd1_21300000.png",
+            "centered": true,
+            "flip_h": false,
+            "flip_v": false,
+            "opacity": 1.0,
+            "tint": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "pixel_perfect": true
+          }
+        ],
+        "script_properties": {
+          "unlockedAtStart": 0,
+          "visualOffset": {
+            "x": 2,
+            "y": 0.5
+          },
+          "visualRotationOffset": 0,
+          "flipWhenAimingLeft": 1,
+          "muzzleDistance": 0.65,
+          "sfx": {
+            "attackSound": "assets/audio/VVittox_survival_rifle.mp3",
+            "hitSound": "",
+            "attackVolume": 0.022,
+            "hitVolume": 0.031,
+            "minPitch": 0.872,
+            "maxPitch": 1.123
+          },
+          "damage": 7,
+          "fireRate": 8,
+          "attackRange": 14,
+          "projectileSpeedMultiplier": 1,
+          "bulletsPerShot": 1,
+          "spreadAngle": 5,
+          "pierce": 0,
+          "criticalChance": 0.05,
+          "criticalMultiplier": 2,
+          "useConfiguredVisualTransform": 1,
+          "kind": "Automatic",
+          "authored_flip_v": false,
+          "projectile_prefab": "prefabs/AutomaticProjectile.vprefab"
+        },
+        "enabled": true,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": ""
+      },
+      {
+        "type": "Node2D",
+        "name": "Sniper",
+        "script": "scripts/weapon.py",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "Sprite2D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position": [
+              47.36,
+              40.3840032
+            ],
+            "rotation": -0.0,
+            "scale": [
+              0.110574464,
+              0.09649681920000001
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "texture": "assets/sprites/sniper_rifle_VVittox_survival_tex_4f2eae0f_2889368697447416238.png",
+            "centered": true,
+            "flip_h": false,
+            "flip_v": false,
+            "opacity": 1.0,
+            "tint": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "pixel_perfect": true
+          }
+        ],
+        "script_properties": {
+          "unlockedAtStart": 0,
+          "flipWhenAimingLeft": 1,
+          "visualRotationOffset": 0,
+          "muzzleDistance": 0.8,
+          "projectileSpeedMultiplier": 1.5,
+          "sfx": {
+            "attackSound": "assets/audio/sniper_sfx_vvittox_survival.mp3.mp3",
+            "hitSound": "",
+            "attackVolume": 0.022,
+            "hitVolume": 0.031,
+            "minPitch": 0.872,
+            "maxPitch": 1.123
+          },
+          "damage": 0,
+          "attackRate": 0,
+          "attackRange": 0,
+          "criticalChance": 0.736,
+          "pierce": 4,
+          "kind": "Sniper",
+          "authored_flip_v": false,
+          "projectile_prefab": "prefabs/SniperProjectile.vprefab"
+        },
+        "enabled": true,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": ""
+      },
+      {
+        "type": "Node2D",
+        "name": "MachineGun",
+        "script": "scripts/weapon.py",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "Sprite2D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position": [
+              47.36,
+              -27.296
+            ],
+            "rotation": -0.0,
+            "scale": [
+              0.110574464,
+              0.09649681920000001
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "texture": "assets/sprites/automatic_gun_VVittox_survival_tex_94734a17_7130457572871944688.png",
+            "centered": true,
+            "flip_h": false,
+            "flip_v": false,
+            "opacity": 1.0,
+            "tint": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "pixel_perfect": true
+          }
+        ],
+        "script_properties": {
+          "unlockedAtStart": 0,
+          "flipWhenAimingLeft": 1,
+          "visualRotationOffset": 0,
+          "muzzleDistance": 0.8,
+          "projectileSpeedMultiplier": 1.5,
+          "sfx": {
+            "attackSound": "assets/audio/Machine_gun_sfx_vvittox_survival.mp3",
+            "hitSound": "",
+            "attackVolume": 0.022,
+            "hitVolume": 0.031,
+            "minPitch": 0.872,
+            "maxPitch": 1.123
+          },
+          "damage": 0,
+          "attackRate": 0,
+          "attackRange": 0,
+          "criticalChance": 0.08,
+          "spinUpTime": 0.8,
+          "heatPerShot": 0.052,
+          "coolingRate": 0.42,
+          "kind": "MachineGun",
+          "authored_flip_v": false,
+          "projectile_prefab": "prefabs/MachineGunProjectile.vprefab"
+        },
+        "enabled": true,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": ""
+      },
+      {
+        "type": "Node2D",
+        "name": "Knife",
+        "script": "scripts/weapon.py",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "Sprite2D",
+            "name": "BladeTemplate",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": false,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": -0.0,
+            "scale": [
+              0.17009280000000002,
+              -0.133080608
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "texture": "assets/sprites/knife_bd8060a7_761100573506273824.png",
+            "centered": true,
+            "flip_h": false,
+            "flip_v": false,
+            "opacity": 1.0,
+            "tint": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "pixel_perfect": true
+          }
+        ],
+        "script_properties": {
+          "unlockedAtStart": 1,
+          "sfx": {
+            "attackSound": "",
+            "hitSound": "assets/audio/VVittox_survival_fkinfe.wav",
+            "attackVolume": 0.022,
+            "hitVolume": 0.031,
+            "minPitch": 0.872,
+            "maxPitch": 1.123
+          },
+          "swingSoundInterval": 0.65,
+          "minimumHitSoundInterval": 0.06,
+          "damage": 22,
+          "knifeCount": 1,
+          "orbitRadius": 3,
+          "orbitSpeed": 165,
+          "bladeHitRadius": 2,
+          "hitCooldown": 0.22,
+          "orbitCenterOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "tangentRotation": 1,
+          "spriteRotationOffset": 0,
+          "visualScaleMultiplier": 1,
+          "kind": "Knife",
+          "authored_flip_v": false
+        },
+        "enabled": true,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": ""
+      },
+      {
+        "type": "Node2D",
+        "name": "Machete",
+        "script": "scripts/weapon.py",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "Sprite2D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": -0.0,
+            "scale": [
+              0.17009280000000002,
+              -0.133080608
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "texture": "assets/sprites/machete_VVittox_survival_tex_eb5d8992_-8737776714868017526.png",
+            "centered": true,
+            "flip_h": false,
+            "flip_v": false,
+            "opacity": 1.0,
+            "tint": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "pixel_perfect": true
+          }
+        ],
+        "script_properties": {
+          "unlockedAtStart": 0,
+          "flipWhenAimingLeft": 1,
+          "visualRotationOffset": 0,
+          "muzzleDistance": 0.8,
+          "projectileSpeedMultiplier": 1.5,
+          "sfx": {},
+          "damage": 0,
+          "attackRate": 0,
+          "attackRange": 0,
+          "criticalChance": 0.08,
+          "sweepAngle": 125,
+          "swingDuration": 0.22,
+          "knockback": 5,
+          "kind": "Machete",
+          "authored_flip_v": false
+        },
+        "enabled": true,
+        "position": [
+          1.28,
+          -26.4
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": ""
+      },
+      {
+        "type": "Area2D",
+        "name": "ProximitySensor",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {
+          "source": "Player/Circle",
+          "shape_note": "Unity CircleCollider2D, radius 0.5, max transform scale 3.0514; no attached gameplay callbacks"
+        },
+        "enabled": true,
+        "position": [
+          0.64,
+          4.16
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "collider_shape": "circle",
+        "body_type": "STATIC",
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "mass": 1.0,
+        "gravity_scale": 1.0,
+        "restitution": 0.0,
+        "friction": 0.2,
+        "collider_size": [
+          97.6448,
+          97.6448
+        ],
+        "collider_offset": [
+          -48.8224,
+          -48.8224
+        ],
+        "collider_enabled": true,
+        "collider_trigger": true,
+        "collision_layer": 16,
+        "collision_mask": 4
+      },
+      {
+        "type": "Sprite2D",
+        "name": "Hat",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position": [
+          0,
+          -34
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": false,
+        "z_index": 20,
+        "material": "",
+        "texture": "",
+        "centered": true,
+        "flip_h": false,
+        "flip_v": false,
+        "opacity": 1.0,
+        "tint": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "pixel_perfect": false
+      }
+    ],
+    "script_properties": {
+      "moveSpeed": 5,
+      "acceleration": 34,
+      "deceleration": 44,
+      "keyboardEnabled": 1,
+      "gamepadEnabled": 1,
+      "dashCooldown": 3.5,
+      "dashDuration": 0.18,
+      "dashSpeed": 20,
+      "maxHealth": 100,
+      "invulnerabilityTime": 0.18,
+      "damageShake": 0.22,
+      "startAmount": 0,
+      "applySavedSkinTint": true,
+      "source": "Assets/Prefabs/Player.prefab",
+      "unity_id": "Square",
+      "directions": {
+        "up": {
+          "texture": "assets/sprites/V_up_20746459_-2489930019558102696.png",
+          "scale": [
+            0.32,
+            0.32
+          ],
+          "offset": [
+            0.0,
+            -0.0
+          ],
+          "world_size": [
+            2.56,
+            2.56
+          ]
+        },
+        "upRight": {
+          "texture": "assets/sprites/V_up_right_29227154_3760821789393340925.png",
+          "scale": [
+            0.32,
+            0.32
+          ],
+          "offset": [
+            0.0,
+            -0.0
+          ],
+          "world_size": [
+            2.56,
+            2.56
+          ]
+        },
+        "right": {
+          "texture": "assets/sprites/V_right_39e802dd_21300000.png",
+          "scale": [
+            0.32,
+            0.32
+          ],
+          "offset": [
+            0.0,
+            -0.0
+          ],
+          "world_size": [
+            2.56,
+            2.56
+          ]
+        },
+        "downRight": {
+          "texture": "assets/sprites/V_left_right_5bbdcd48_8508813170914396620.png",
+          "scale": [
+            0.32,
+            0.32
+          ],
+          "offset": [
+            0.0,
+            -0.0
+          ],
+          "world_size": [
+            2.56,
+            2.56
+          ]
+        },
+        "down": {
+          "texture": "assets/sprites/V_down_ba84e475_-4740991868950792700.png",
+          "scale": [
+            0.32,
+            0.32
+          ],
+          "offset": [
+            0.0,
+            -0.0
+          ],
+          "world_size": [
+            2.56,
+            2.56
+          ]
+        },
+        "downLeft": {
+          "texture": "assets/sprites/V_left_down_efb4f6bc_3601939435455844393.png",
+          "scale": [
+            0.32,
+            0.32
+          ],
+          "offset": [
+            0.0,
+            -0.0
+          ],
+          "world_size": [
+            2.56,
+            2.56
+          ]
+        },
+        "left": {
+          "texture": "assets/sprites/V_left_47fa7040_21300000.png",
+          "scale": [
+            0.32,
+            0.32
+          ],
+          "offset": [
+            0.0,
+            -0.0
+          ],
+          "world_size": [
+            2.56,
+            2.56
+          ]
+        },
+        "upLeft": {
+          "texture": "assets/sprites/V_up_left_9d83ec67_8117738899840938744.png",
+          "scale": [
+            0.32,
+            0.32
+          ],
+          "offset": [
+            0.0,
+            -0.0
+          ],
+          "world_size": [
+            2.56,
+            2.56
+          ]
+        }
+      }
+    },
+    "enabled": true,
+    "position": [
+      0.0,
+      0.0
+    ],
+    "rotation": 0.0,
+    "scale": [
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "z_index": 0,
+    "material": "",
+    "collider_shape": "box",
+    "body_type": "KINEMATIC",
+    "velocity": [
+      0.0,
+      0.0
+    ],
+    "mass": 1.0,
+    "gravity_scale": 0.0,
+    "restitution": 0.0,
+    "friction": 0.2,
+    "collider_size": [
+      32.0,
+      32.0
+    ],
+    "collider_offset": [
+      -16.0,
+      -16.0
+    ],
+    "collider_enabled": true,
+    "collider_trigger": false,
+    "collision_layer": 2,
+    "collision_mask": 21
+  }
+}

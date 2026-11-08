@@ -1,0 +1,80 @@
+{
+  "format": "vworks_prefab",
+  "version": 2,
+  "node": {
+    "type": "Node2D",
+    "name": "MysteryBox",
+    "script": "",
+    "script_properties": {
+      "zombie_role": "box",
+      "price": 60,
+      "roll_seconds": 1.5,
+      "interaction_radius": 115,
+      "during_wave": true,
+      "closed_texture": "assets/zombies/box_closed.png",
+      "open_texture": "assets/zombies/box_open.png",
+      "weapons": [
+        {
+          "id": "Pistol",
+          "weight": 30
+        },
+        {
+          "id": "Automatic",
+          "weight": 25
+        },
+        {
+          "id": "Sniper",
+          "weight": 15
+        },
+        {
+          "id": "MachineGun",
+          "weight": 10
+        },
+        {
+          "id": "Knife",
+          "weight": 10
+        },
+        {
+          "id": "Machete",
+          "weight": 20
+        }
+      ]
+    },
+    "enabled": true,
+    "children": [
+      {
+        "type": "Sprite2D",
+        "name": "Visual",
+        "script": "",
+        "script_properties": {},
+        "enabled": true,
+        "children": [],
+        "position": [
+          1.1,
+          -2.2
+        ],
+        "scale": [
+          0.22,
+          0.22
+        ],
+        "rotation": 0,
+        "visible": true,
+        "z_index": 0,
+        "texture": "assets/zombies/box_closed.png",
+        "centered": true,
+        "pixel_perfect": true
+      }
+    ],
+    "position": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "rotation": 0,
+    "visible": true,
+    "z_index": 0
+  }
+}
